@@ -1,0 +1,119 @@
+#heading2{
+    text-align: center;
+}
+.flex1{
+    border: 1px solid black;
+    justify-content: start;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    height: 70px;
+
+}
+.flexbox{
+    border: 1px solid black;
+    background-color: blue;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    
+}   
+.flex4{
+    border: 1px solid black;
+    justify-content: start;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+
+}
+.flexbox42{
+   border: 1px solid black;
+    background-color: blue; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 60px;
+    height: 80px;  
+}
+.flexbox4{
+    border: 1px solid black;
+    background-color: blue;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    
+}   
+.flex5{
+    border: 1px solid black;
+    justify-content: start;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    height: 70px;
+    align-items: center;
+
+}
+.flexbox5{
+    border: 1px solid black;
+    background-color: blue;   
+    display: flex;
+    width: 60px;
+    height: 60px;
+    flex-wrap: wrap;
+}   
+.flex10{
+    border: 1px solid black;
+    justify-content: start;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    height: 70px;
+    align-items: center;
+
+}
+.flexbox10{
+    border: 1px solid black;
+    background-color: blue;   
+    display: flex;
+    width: 60px;
+    height: 60px;
+}         
+.flexbox10:nth-child(2){
+    order:-1;
+}
+.flex11{
+    border: 1px solid black;
+    justify-content: start;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    height: 200px;
+
+}
+.flexbox111{
+    border: 1px solid black;
+    background-color: blue;   
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+.flexbox112{
+    border: 1px solid black;
+    background-color: blue;   
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
+.flexbox113{
+    border: 1px solid black;
+    background-color: blue;   
+    display: flex;
+    width: 60px;
+    height: 60px;
+}
