@@ -7,8 +7,69 @@
     grid-template-columns: 200px repeat(4,200px); */
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: 100px 100px;
+    gap:10px;
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    align-items: end ;
 }
 .item{
     border: 1px solid black;
     background-color: lime;
+    padding:  30px 40px;
+}
+.item:nth-child(8){
+    grid-column-start: 3;
+    grid-column-end: -1;
+    grid-column: 3/-1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-row: 2/3;
+
+}
+header{
+    grid-area: header;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+nav{
+    grid-area: navbar;
+    background-color: green;
+    color: yellow;
+    border: 1px solid black;
+}
+
+main{
+    grid-area: main;
+    background-color: yellow;
+    color: red;
+    border: 1px solid black;
+}
+
+aside{
+    grid-area: aside;
+    background-color: blue;
+    color: green;
+    border: 1px solid black;
+}
+
+footer{
+    grid-area: footer;
+    background-color: green;
+    color: yellow;
+    border: 1px solid black;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+            "header header header"
+            "navbar main aside"
+            "footer footer footer";
+    grid-area: body;
+
 }
